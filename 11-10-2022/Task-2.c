@@ -16,7 +16,7 @@ int main()
 
     Avg = (A + B + C) / 3.0; //We use 3.0 instead of 3 so that the output becomes a float instead of int
 
-    printf("The average is: %.1f", Avg); //The ".1" specifies the number decimal places to be shown which in our case is 1 decimal place
+    printf("The average is: %.1f", Avg); //The ".1" specifies the number of decimal places to be shown which in our case is 1 decimal place
 
     return 0;
 }
