@@ -8,7 +8,7 @@ int main()
 
     float F = (C * (9.0 / 5.0)) + 32.0; //The formula F=(C*(9/5)+32 . We use floats in the equation.
 
-    printf("Fahrenheit value is = %.2f", F); //Correct to 2 decimal places
+    printf("\nFahrenheit value is = %.2f\n", F); //Correct to 2 decimal places
     /* The number of decimal places to be shown will be given */
 
     return 0;
