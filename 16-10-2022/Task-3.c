@@ -19,8 +19,10 @@ int main()
     scanf("%d", &radius);
 
     volume = PI * (radius * radius) * height;
+    //No need to create a new volume variable for this.. we can reuse the old as we will just assign it with a new value
 
     printf("Volume of Cylinder: %.2f\n", volume);
+    //All answers are correct to 2 decimal places but it is not necessary unless told
 
     return 0;
 }
