@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define PI 3.142
+#define PI 3.142 //Define a PI constant
 
 int main()
 {
