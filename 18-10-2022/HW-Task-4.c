@@ -10,7 +10,7 @@ int main()
 
     printf("Enter amount: ");
     scanf("%d", &amount);
-    /* Lets Take 1176 as an example */
+    /* Let's take 1176 as an example */
 
     nt500 = amount / 500; // 1176/500 = 2
     remaining_amount = amount % 500; // 1176 % 500 = 176
