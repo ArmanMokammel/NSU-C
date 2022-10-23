@@ -19,6 +19,10 @@ int main()
     {
         printf("%d is a multiple 11", num);
     }
+    else
+    {
+        printf("%d is a not a multiple of 5 and 11", num);
+    }
 
     return 0;
 }
