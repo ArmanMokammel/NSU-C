@@ -6,8 +6,9 @@ int main()
      
     printf("Enter a number: ");
     scanf("%f", &n);
-     
-    if(n == (int)n) // Converts n from float to integer using type casting and compares with the original
+    
+    // Converts n from float to integer using type casting and compares with the original
+    if(n == (int)n) // Or you can use (n - (int)n == 0)
     {
         printf("The number is an integer.");
     }
