@@ -10,7 +10,7 @@ int main()
 
     Sum = a + b + c;
 
-    if(Sum == 180 && a > 0 && b > 0 && c > 0)
+    if(Sum == 180 && a > 0 && b > 0 && c > 0) //We also check to make sure that there is no zero angle
     {
         printf("The triangle is valid.");
     }
