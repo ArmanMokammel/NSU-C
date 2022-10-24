@@ -7,7 +7,7 @@ int main()
     printf("Enter a character: ");
     scanf("%c", &a);
 
-    if((a >= '0' && a <= '9') || (a >= 'A' && a <= 'F'))
+    if((a >= '0' && a <= '9') || (a >= 'a' && a <= 'f') || (a >= 'A' && a <= 'F'))
     {
         printf("It is a valid hexadecimal character.");
     }
