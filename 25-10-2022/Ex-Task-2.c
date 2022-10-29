@@ -5,7 +5,7 @@ int main()
     int num1, num2;
 
     printf("Enter two numbers to find maximum: ");
-    scanf("%d %d", &num1, &num2);
+    scanf("%d%d", &num1, &num2);
 
     /* Expression (num1 > num2) will return either 0 or 1 */
     switch(num1 > num2)
