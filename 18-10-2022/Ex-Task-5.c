@@ -6,12 +6,12 @@ int main()
     float arc_length, r;
   
     printf("Enter the arc length: ");
-    scanf("%f",&arc_length);
+    scanf("%f", &arc_length);
     printf("Enter the radius: ");
-    scanf("%f",&r);
+    scanf("%f", &r);
   
     float angle = arc_length / r;
-    printf("%.2f\n",angle);
+    printf("The angle of the segment is: %.2f", angle);
   
     return 0;
 }
