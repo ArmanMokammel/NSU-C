@@ -11,7 +11,7 @@ int main()
     scanf("%f", &h);
   
     area = b * h;
-    printf("Area of Parallelogram= %.2f",area);
+    printf("Area of Parallelogram = %.2f",area);
 
     return 0;
 }
