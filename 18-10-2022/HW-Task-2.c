@@ -3,7 +3,7 @@
 
 int main()
 {
-    float pi=3.1415;
+    float pi = 3.14;
     float r,h;
     
     printf("Enter the radius of cone: ");
