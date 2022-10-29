@@ -11,7 +11,7 @@ int main()
     scanf("%f",&h);
   
     float hyp = sqrt(b*b + h*h);  //pythagoras theorem
-    printf("Hypotenuse of triangle is %.2f ",hy);
+    printf("Hypotenuse of triangle is %.2f ", hyp);
 
     return 0;
 }
