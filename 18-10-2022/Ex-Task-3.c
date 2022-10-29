@@ -3,13 +3,13 @@
 
 int main()
 {
-  float r;
+    float r, vol;
   
-  printf("Enter the radius: ");
-  scanf("%f",&r);
+    printf("Enter the radius: ");
+    scanf("%f",&r);
   
-  float vol = (4/3) * (3.14 * pow(r,3));
-  printf("%.2f\n",vol);
+    vol = (4/3) * (3.14 * pow(r,3));
+    printf("%.2f\n",vol);
   
-  return 0;
+    return 0;
 }
