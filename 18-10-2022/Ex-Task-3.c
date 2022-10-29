@@ -6,10 +6,10 @@ int main()
     float r, vol;
   
     printf("Enter the radius: ");
-    scanf("%f",&r);
+    scanf("%f", &r);
   
     vol = (4/3) * (3.14 * pow(r,3));
-    printf("%.2f\n",vol);
+    printf("The volume of sphere is: %.2f", vol);
   
     return 0;
 }
