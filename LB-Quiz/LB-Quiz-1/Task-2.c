@@ -21,11 +21,11 @@ int main()
 
     if(distance <= x)
     {
-        printf("circle2 is overlaping circle1");
+        printf("circle2 is inside circle1");
     }
     else if(distance <= r1 + r2)
     {
-        printf("circle2 is inside circle1");
+        printf("circle2 is overlaping circle1"); 
     }
     else
     {
