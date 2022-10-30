@@ -18,6 +18,10 @@ int main()
     {
         x = -(r1 - r2);
     }
+    else
+    {
+        x = r1 - r2;
+    }
 
     if(distance <= x)
     {
