@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, i, j;
+    float sum = 0;
+    
+    printf("Enter value of n: ");
+    scanf("%d", &n);
+    
+    for(i = 5, j = 4; i <= n; i+=j, j+=2)
+    {
+        sum += i*i;
+    }
+    
+    printf("Sum = %0.0f", sum);
+    
+    return 0;
+}
