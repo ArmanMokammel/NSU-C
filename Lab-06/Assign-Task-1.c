@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n, i, j;
+    int n, i = 5, j = 4;
     float sum = 0;
     
     printf("Enter value of n: ");
