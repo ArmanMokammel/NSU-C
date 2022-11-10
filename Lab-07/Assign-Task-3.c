@@ -36,9 +36,13 @@ int main()
     printf("The reverse of %d is %d\n", org, x);
     // flag is 1 for prime numbers
     if (flag == 1)
-    printf("%d is a prime number.", x);
+    {
+        printf("%d is a prime number.", x);   
+    }
     else
-    printf("%d is not a prime number.", x);
+    {
+        printf("%d is not a prime number.", x);
+    }
 
     return 0;
 }
