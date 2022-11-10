@@ -21,8 +21,6 @@ int main()
 
     for (i = 2; i <= sum / 2; i++)
     {
-        // if n is divisible by i, then n is not prime
-        // change flag to 1 for non-prime number
         if (sum % i == 0)
         {
             flag = 0;
