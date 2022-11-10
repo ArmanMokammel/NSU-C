@@ -2,9 +2,11 @@
 
 int main()
 {
-    int n, i, r, x, flag = 1;
+    int n, i, r, org, x = 0, flag = 1;
     printf("Enter a positive integer: ");
     scanf("%d", &n);
+    
+    org = n;
   
     while(n != 0)
     {
