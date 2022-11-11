@@ -16,7 +16,8 @@ int main()
         n! got cancelled we got, q(n)=(2n!)/(n!) = 2n*(2n-1)*.....*(n+1)
         So, now we need to calculate q(n)= 2n*(2n-1)*.....*(n+1)
     */
-
+    
+    // i > n due to (n+1) term at the end
     for(i = 2*n; i > n; i--)
     {
         qf *= i;
