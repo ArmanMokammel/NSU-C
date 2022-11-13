@@ -7,7 +7,7 @@ int main()
     printf("Enter N: ");
     scanf("%d", &N);
 
-    // for each line i do the following loop
+    /* for each line i do the following loop */
     for(i = 1; i <= N; i++)
     {
         /* Calculating the spaces first 
