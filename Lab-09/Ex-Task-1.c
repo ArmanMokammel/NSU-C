@@ -49,6 +49,5 @@ int main()
         //print a new line character at the end of each line (loop of i) for the display to go to the next line below it
         printf("\n");
     }
-
     return 0;
 }
