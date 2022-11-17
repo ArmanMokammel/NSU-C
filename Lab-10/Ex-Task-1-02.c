@@ -21,12 +21,12 @@ int main()
         
         /* 
            Let's take A as 65 & i as 2
-           The loop's condition will be from 65 to (2 - 1) i.e. 67
-           This means the loop will run 3 times and will print 3 characters A & B
+           The loop's condition will be from 65 to 65 + 2 i.e. 67
+           This means the loop will run 2 times and will print 2 characters A & B
         */
-        for(ch = 'A'; ch < 'A' + i - 1; ch++)
+        for(ch = 'A'; ch < 'A' + i; ch++)
         {
-            // print a character with a space aftr it
+            // print a character with a space after it
             printf("%c ", ch);
         }
         
