@@ -16,6 +16,11 @@ int main()
     {
         /* Assume that the current number is Prime */
         isPrime = 1;
+        
+        // Make sure that lowerlimit does not go below 2
+        // Since 2 is first prime number
+        if(start < 2) 
+            start = 2;
 
         /* Check if the current number i is prime or not */
         for(j = 2; j <= i/2; j++)
