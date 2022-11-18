@@ -4,7 +4,6 @@ int main()
 {
     int i, j, n, isPrime; // isPrime is used as flag variable
 
-    /* Input upper limit to print prime */
     printf("Enter n: ");
     scanf("%d", &n);
 
