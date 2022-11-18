@@ -8,7 +8,7 @@ int main()
     printf("Enter n: ");
     scanf("%d", &n);
 
-    printf("All prime numbers between %d to 1 are:\n", n);
+    printf("All prime numbers between 1 and %d (in reverse order):\n", n);
 
     /* Find all Prime numbers between n to 1 */
     for(i = n; i >= 2; i--)
