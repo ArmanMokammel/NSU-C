@@ -29,7 +29,7 @@ int main()
             x /= 10;
         }
         
-        // check if the value of i which is our current value is equal to its reverse value
+        // check if the value of num which is our current value is equal to its reverse value
         if (num == rev)
         {
             // If yes then print it
