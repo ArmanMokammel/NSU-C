@@ -34,9 +34,9 @@ int main()
         {
             // If yes then print it
             printf("%d, ", num);
-            n--;
+            n--; // As we have found out one palindrome number we decrease our count
         }
-        num++;
+        num++; // At the end of each loop we increment the value of num to the next number
     }
 
     return 0;
