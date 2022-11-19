@@ -3,9 +3,12 @@
 int main()
 {
     int n, i, j = 2, sum, ans = 0;
+    int org;
 
     printf("Enter n: ");
     scanf("%d", &n);
+    
+    org = n; // store the value of n to another variable for later use
     
     /* 
        We need to find n number of perfect numbers..
@@ -39,7 +42,7 @@ int main()
         j++; // At the end of each loop we increment the value of j i.e our divident to the next number
     }
   
-    printf("The sum of the first %d perfect numbers are:\n", n, ans);
+    printf("The sum of the first %d perfect numbers is: %d", org, ans);
   
     return 0;
 }
