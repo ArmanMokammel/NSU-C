@@ -14,6 +14,7 @@ int main()
     /* The loop will start from m and run till n */
     for(i = m; i <= n; i++)
     {
+        // Make sure to declare these variables inside the loop as they will need to be reset after each loop
         int x, r, rev = 0;
 
         x = i; // Store the value of i to another "x" variable and perform calculations on that new "x" variable
