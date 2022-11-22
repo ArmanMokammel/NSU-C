@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // Defining the function for calculating factorial of a number
-float Fact(float x)
+// This function is expected to return a float
+float Fact(int x)
 {
     float fact = 1;
     
@@ -16,7 +17,8 @@ float Fact(float x)
 }
 
 // Defining the function to calculate the sum of the series
-float sumSeries(float num)
+//This function is expected to return a float
+float sumSeries(int num)
 {
     float sum = 0;
     
@@ -31,7 +33,7 @@ float sumSeries(float num)
         sum = sum + (i / Fact(i));
     }
     
-    // Once we get the sum of the series, we return the sum value to the call of this function
+    // Once we get the sum of the series, we return the sum value to the caller of this function
     return sum;
 }
 
