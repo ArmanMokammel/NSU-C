@@ -6,9 +6,9 @@ int sumSeries(int r, int n)
 
     for(int i = 1; i <= n; i++)
     {
-        int val = r;
+        int val = 1;
 
-        for(int j = 1; j < i; j++)
+        for(int j = 1; j <= i; j++)
         {
             val *= r;
         }
