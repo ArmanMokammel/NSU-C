@@ -23,18 +23,24 @@ int main()
     return 0;
 }
 
+// Defining the function for calculating diameter
+// This function is expected to return a float
 float Diameter(float r)
 {
     // Get the value and return it to the caller of this function
     return 2*r;
 }
 
+// Defining the function for calculating area
+// This function is expected to return a float
 float Area(float r)
 {
     // Get the value and return it to the caller of this function
     return PI*r*r;
 }
 
+// Defining the function for calculating circumference
+// This function is expected to return a float
 float Circumference(float r)
 {
     // Get the value and return it to the caller of this function
