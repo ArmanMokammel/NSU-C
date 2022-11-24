@@ -1,10 +1,13 @@
 #include <stdio.h>
-#include <math.h>
+#define PI 3.14159 // Defining PI
 
+// If we want to define our functions below the main function, we will have to write the function heading above the main function
+// Make sure to add semicolon for this part
 float Diameter(float r);
 float Area(float r);
 float Circumference(float r);
 
+// Our main function
 int main()
 {
     float radius;
@@ -12,6 +15,7 @@ int main()
     printf("Enter radius: ");
     scanf("%f", &radius);
 
+    // Calling the functions directly inside print statement
     printf("Diameter = %.2f\n", Diameter(radius));
     printf("Area = %.2f\n", Area(radius));
     printf("Circumference = %.2f", Circumference(radius));
@@ -21,15 +25,18 @@ int main()
 
 float Diameter(float r)
 {
+    // Get the value and return it to the caller of this function
     return 2*r;
 }
 
 float Area(float r)
 {
-    return M_PI * r*r;
+    // Get the value and return it to the caller of this function
+    return PI*r*r;
 }
 
 float Circumference(float r)
 {
-    return 2*M_PI*r;
+    // Get the value and return it to the caller of this function
+    return 2*PI*r;
 }
