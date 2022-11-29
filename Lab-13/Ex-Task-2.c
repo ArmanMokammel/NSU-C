@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float inverseProduct(float n)
+float inverseProduct(int n)
 {
     if(n == 1)
     {
@@ -8,16 +8,16 @@ float inverseProduct(float n)
     }
     else
     {
-        return (1/n) * inverseProduct(n-1);
+        return (1.0/n) * inverseProduct(n-1);
     }
 }
 
 int main()
 {
-    float N;
+    int N;
 
     printf("Enter n: ");
-    scanf("%f", &N);
+    scanf("%d", &N);
 
     printf("Inverse product = %f", inverseProduct(N));
 
