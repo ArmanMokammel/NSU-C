@@ -23,7 +23,6 @@ int main()
         {
             printf("%c/%c: %d\n", A2, A1, count);
         }
-
     }
 
     return 0;
