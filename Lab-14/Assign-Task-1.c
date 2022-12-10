@@ -27,7 +27,7 @@ int main()
                 arr[j] = arr[j + 1];
             }
             size--;
-            break;
+            break; // To stop execution after the first found element is deleted
         }
     }
 
