@@ -4,28 +4,33 @@ int main()
 {
     int r, c, i, j;
 
-    printf("\nEnter the order of the matrix : ");
-    scanf("%d %d",&r,&c);
+    printf("Enter row: ");
+    scanf("%d", &r);
+    printf("Enter column: ");
+    scanf("%d", &c);
 
     int matrixA[r][c], matrixB[r][c], matrixsum[r][c];
 
-    printf("\nEnter values to the matrix A = \n");
-    for (i = 0; i < r; i++)
+    printf("\nEnter values into matrix A:\n");
+    for(int i = 0; i < r; i++)
     {
-        for (j = 0; j < c; j++)
+        for(int j = 0; j < c; j++)
         {
+            printf("A[%d][%d] = ", i, j);
             scanf("%d", &matrixA[i][j]);
         }
     }
 
-    printf("\nEnter values to the matrix B = \n");
-    for (i = 0; i < r; i++)
+    printf("\nEnter values into matrix B:\n");
+    for(int i = 0; i < r; i++)
     {
-        for (j = 0; j < c; j++)
+        for(int j = 0; j < c; j++)
         {
+            printf("B[%d][%d] = ", i, j);
             scanf("%d", &matrixB[i][j]);
         }
     }
+    printf("\n");
 
     for (i = 0; i < r; i++)
     {
