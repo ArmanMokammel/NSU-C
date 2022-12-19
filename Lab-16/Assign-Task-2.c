@@ -2,7 +2,7 @@
 
 int main()
 {
-    int r, c, i, j;
+    int r, c;
 
     printf("Enter row: ");
     scanf("%d", &r);
@@ -32,18 +32,18 @@ int main()
     }
     printf("\n");
 
-    for (i = 0; i < r; i++)
+    for (int i = 0; i < r; i++)
     {
-        for (j = 0; j < c; j++)
+        for (int j = 0; j < c; j++)
         {
             matrixsum[i][j] = (5 * matrixA[i][j]) + (7 * matrixB[i][j]) + 9;
         }
     }
 
     printf("\nValues of the matrix 5A+7B+9 = \n");
-    for (i = 0; i < r; i++)
+    for (int i = 0; i < r; i++)
     {
-        for (j = 0; j < c; j++)
+        for (int j = 0; j < c; j++)
         {
             printf("%d ", matrixsum[i][j]);
         }
