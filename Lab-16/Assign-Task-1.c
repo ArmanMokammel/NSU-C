@@ -29,5 +29,5 @@ int main()
             }
         }
     }
-    printf("Sum=%d",sum);
+    printf("Sum of main border elements = %d",sum);
 }
